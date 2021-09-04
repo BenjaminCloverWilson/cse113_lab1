@@ -1,0 +1,98 @@
+Benjamin Wilson
+September 3, 2021
+Lab 2
+
+Purpose: Use functions to evaluate input by the user and calculate basic
+geometric expressions. To create a geometric calculator.
+
+Pseudo-Code:
+
+    Packages (#include and stuff)
+
+    Function Prototypes
+
+    Main{
+        -Welcome
+
+        -Commented out hard coded values for testing calculations.
+        -Rectangle storage for input and output
+        -Rectangle user input
+        -Rectangle function class and output
+
+        -Commented out hard coded values for testing calculations.
+        -Circle storage for input and output
+        -Circle user input
+        -Circle function class and output
+
+        -Commented out hard coded values for testing calculations.
+        -Triangle storage for input and output
+        -Triangle user input
+        -Triangle function class and output
+
+        -Commented out hard coded values for testing calculations.
+        -Regular Polygon storage for input and output
+        -Regular Polygon user input
+        -Regular Polygon function class and output
+
+        -return 0;
+}
+
+    Function Definitions
+
+Conclusions:
+
+a) What I learned from this lab:
+
+I learned how to implement functions and how to do doxygen comments. For
+functions, I learned to declare the function before the main method and
+to define the function after the main. I also learned how to set one up with
+varying data types, call one to assign a variable, and how to call a 
+function within a function.
+
+For doxygen comments, I learned how to make headers (with @ definitions/symbols),
+which comments to use (/* */ instead of //), where to place the comments, and
+what to put inside the comments.
+
+b) How did pair programming help/hinder the lab:
+
+Pair: It was helpful to have someone to check for syntax errors and typos. I also
+felt like it helped me learn about user input more by helping guide someone else.
+For example, I feel extremely confident with the printf() and scanf() commands.
+Plus, when a problem arose, it was nice to have someone to bounce ideas off of in
+order to solve the problem. We got along very well.
+
+Buddy: One of my friends consulted with me about how to call a function within
+a function. Specifically, they weren't sure how to call hypotenuse() within
+perimeter_triangle(). At first, I didn't know how to do this correctly either.
+However, having my buddy ask me provoked me to think about it in the background;
+and I gained a eureka moment. So, like with the pair programming, it was helpful
+to teach someone else the concepts (or bounce solutions off each other) so that
+I could grasp it myself. We did not have a review session, however.
+
+c) Issues and how I fixed them (bug report):
+
+I had problems compiling the pow(), sqrt(), and tan() functions. Initially, I
+only had problems with sqrt(). But, I fixed that problem by adding -lm in the
+terminal everytime I went to compile the lab program. But, with reegards to pow()
+and tan(), I had formatting issues with the functions. For pow(), I originally
+squared my variables with a carrot (^) symbol; this was fixed by examining how
+my functions worked, and I replaced the ^ symmbol with a comma. Finally, with
+tan(), I attempted to divide the pi approximation by the variable in the same
+manner that I used pow(), by placing a comma between the variables. But, I soon
+examined the sqrt() function, and instead added a simple division expression.
+
+I also had problems with syntax, such as not placing a semicolon after certain
+statements. I fixed this easily by reading the line in the compiler where the
+issue was taking place, and re-read the line, only to notice a typo or forgotten
+syntax.
+
+d) Improvements to make:
+
+In the future, I would like the program to ask the user which specif geometric
+calculation they'd like to run through the calculator. This would be better
+than forcing the user to complete every calculation. Of course, the user
+could also choose to complete every calculation if they wanted to.
+
+I would also like for the user to be able to perform both integer
+or floating-point input.
+

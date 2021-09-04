@@ -1,0 +1,53 @@
+Script started on 2021-09-03 18:04:51-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="48"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab1[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab1[00m$ gcc -g -Wall lab1.c -o lab1 -lm
+]0;ben@Clover-VirtualBox: ~/cse113/lab1[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab1[00m$ ./lab1
+Welcome to Benjamin Wilson's Geometry Calculator!
+
+Please input the integer length of the rectangle: 2
+
+Please input the integer width of the rectangle: 3
+
+----------Rectangle Calculations----------
+
+The area of your rectangle with length 3 and width 2 equals: 6
+
+The perimeter of your rectangle with length 3 and width 2 equals: 10
+
+The diagonal of your rectangle with length 3 and width 2 equals: 3.605551
+
+Please enter the radius of your circle as a floating point: 2.0
+
+----------Circle Calculations----------
+
+The area of the cirlce with radius 2.000000 is: 12.566372
+
+The circumference of the circle with radius 2.000000 is: 12.566372
+
+Please enter the base of the right triangle as a floating point: 1.0
+
+Please enter the height of the right triangle as a floating point: 1.0
+
+----------Triangle Calculations----------
+
+The area of the right triangle with a base of 1.000000 and a height of 1.000000 is: 0.500000
+
+The perimeter of the right triangle with a base of 1.000000 and a height of 1.000000 is: 3.414214
+
+Enter the number of sides of a regular polygon as an integer: 8
+
+Enter the length of the side of a regular polygon as a floating point: 5.0
+
+----------Regular Polygons----------
+
+The exterior angle of a regular polygon with 8 sides is: 45.000000 degrees 
+
+The sum of the interior angles of a regular polygon with 8 sides is: 1080.000000 degrees 
+
+A single interior angle of a regular polygon with 8 sides is: 135.000000 degrees 
+
+The area of a regular polygon with 8 sides, each 5.000000 units long, is: 120.710663 
+
+]0;ben@Clover-VirtualBox: ~/cse113/lab1[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab1[00m$ exit
+exit
+
+Script done on 2021-09-03 18:06:27-06:00 [COMMAND_EXIT_CODE="0"]
